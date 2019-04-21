@@ -29,6 +29,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="number"
         android:hint="Año de creacion"
         android:id="@+id/ano"/>
     <EditText
@@ -45,6 +46,14 @@
         android:id="@+id/btninserta"
         android:layout_marginTop="40dp"
         android:textColor="#FFFFFF"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#258c35"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/regresapintura"
+        android:text="Regresar"/>
 
 
 

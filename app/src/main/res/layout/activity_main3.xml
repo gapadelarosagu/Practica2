@@ -31,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Año de creacion"
+        android:inputType="number"
         android:id="@+id/anoE"/>
     <EditText
         android:layout_width="match_parent"
@@ -46,5 +47,13 @@
         android:id="@+id/inserta"
         android:layout_marginTop="40dp"
         android:textColor="#FFFFFF"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#258c35"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/regresaescultura"
+        android:text="Regresar"/>
 
 </LinearLayout>
